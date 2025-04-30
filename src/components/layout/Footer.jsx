@@ -22,13 +22,16 @@ const Footer = () => {
                 <Link to="/about" className="text-gray-300 hover:text-white">О компании</Link>
               </li>
               <li>
-                <Link to="/privacy" className="text-gray-300 hover:text-white">Конфиденциальность</Link>
-              </li>
-              <li>
                 <Link to="/contact" className="text-gray-300 hover:text-white">Связаться с нами</Link>
               </li>
               <li>
+                <Link to="/privacy" className="text-gray-300 hover:text-white">Конфиденциальность</Link>
+              </li>
+              <li>
                 <Link to="/consent/revoke" className="text-gray-300 hover:text-white">Отозвать согласие</Link>
+              </li>
+              <li>
+                <Link to="/account" className="text-gray-300 hover:text-white">Личный кабинет</Link>
               </li>
             </ul>
           </div>
